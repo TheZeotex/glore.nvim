@@ -1,5 +1,9 @@
 # gore.nvim
 
+<a href="https://dotfyle.com/plugins/YedTheEmo/gore.nvim">
+	<img src="https://dotfyle.com/plugins/YedTheEmo/gore.nvim/shield?style=flat" />
+</a>
+
 A high-contrast dark colorscheme for Neovim inspired by Gothic aesthetics.
 
 ![gore.nvim](assets/preview.png)
