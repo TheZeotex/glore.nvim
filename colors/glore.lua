@@ -1,12 +1,12 @@
--- gore.nvim
--- Gothic / high-contrast Neovim colorscheme
+-- glore.nvim
+-- Gothic / high-contrast Neovim colorscheme + nature accents
 
 vim.cmd("highlight clear")
 if vim.fn.exists("syntax_on") then
   vim.cmd("syntax reset")
 end
 
-vim.g.colors_name = "gore"
+vim.g.colors_name = "glore"
 
 local p = {
   -- Void
@@ -27,9 +27,9 @@ local p = {
   crimson    = "#B92338",
   scarlet    = "#D63B4F",
 
-  -- Gold
-  tarnished  = "#9A8034",
-  gold       = "#C0A34A",
+  -- chlorophyll
+  tarnished    = "#629C7D",
+  chlorophyll  = "#268C6A",
 
   -- Iron
   iron       = "#707276",
@@ -84,7 +84,7 @@ hi("LineNr", {
 })
 
 hi("CursorLineNr", {
-  fg = p.gold,
+  fg = p.chlorophyll,
   bold = true,
 })
 
@@ -144,13 +144,13 @@ hi("Search", {
 
 hi("IncSearch", {
   fg = p.void,
-  bg = p.gold,
+  bg = p.chlorophyll,
   bold = true,
 })
 
 hi("CurSearch", {
   fg = p.void,
-  bg = p.gold,
+  bg = p.chlorophyll,
   bold = true,
 })
 
@@ -164,7 +164,7 @@ hi("Substitute", {
 -- ═══════════════════════════════════════════════════════════════
 
 hi("Directory", {
-  fg = p.gold,
+  fg = p.chlorophyll,
   bold = true,
 })
 
@@ -174,11 +174,11 @@ hi("Title", {
 })
 
 hi("Question", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("MoreMsg", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("ModeMsg", {
@@ -186,7 +186,7 @@ hi("ModeMsg", {
 })
 
 hi("WarningMsg", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("ErrorMsg", {
@@ -216,7 +216,7 @@ hi("Character", {
 })
 
 hi("Number", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("Boolean", {
@@ -225,7 +225,7 @@ hi("Boolean", {
 })
 
 hi("Float", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("Identifier", {
@@ -323,7 +323,7 @@ hi("Debug", {
 })
 
 hi("Underlined", {
-  fg = p.gold,
+  fg = p.chlorophyll,
   underline = true,
 })
 
@@ -338,7 +338,7 @@ hi("Error", {
 
 hi("Todo", {
   fg = p.void,
-  bg = p.gold,
+  bg = p.chlorophyll,
   bold = true,
 })
 
@@ -384,7 +384,7 @@ hi("@character", {
 })
 
 hi("@number", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("@boolean", {
@@ -480,7 +480,7 @@ hi("DiagnosticError", {
 })
 
 hi("DiagnosticWarn", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("DiagnosticInfo", {
@@ -497,7 +497,7 @@ hi("DiagnosticUnderlineError", {
 })
 
 hi("DiagnosticUnderlineWarn", {
-  sp = p.gold,
+  sp = p.chlorophyll,
   undercurl = true,
 })
 
@@ -587,12 +587,12 @@ hi("PmenuThumb", {
 })
 
 hi("PmenuKind", {
-  fg = p.gold,
+  fg = p.chlorophyll,
   bg = p.black,
 })
 
 hi("PmenuKindSel", {
-  fg = p.gold,
+  fg = p.chlorophyll,
   bg = p.wine,
 })
 
@@ -606,7 +606,7 @@ hi("DiffAdd", {
 })
 
 hi("DiffChange", {
-  fg = p.gold,
+  fg = p.chlorophyll,
   bg = "#1C1810",
 })
 
@@ -639,7 +639,7 @@ hi("GitSignsAdd", {
 })
 
 hi("GitSignsChange", {
-  fg = p.gold,
+  fg = p.chlorophyll,
 })
 
 hi("GitSignsDelete", {
